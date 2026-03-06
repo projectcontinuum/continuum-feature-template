@@ -80,7 +80,7 @@ Rename the project from `template` to your feature name (e.g., `myfeature`). Upd
 GitHub Packages requires authentication even for reading public packages:
 
 ```bash
-export GITHUB_USERNAME=your-github-username
+export GITHUB_USER=your-github-username
 export GITHUB_TOKEN=ghp_your-personal-access-token
 ```
 
