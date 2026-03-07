@@ -1,6 +1,6 @@
 # Continuum Feature Template
 
-A template repository for building custom [Continuum](https://github.com/roushan65/Continuum) workflow nodes. Create your own feature modules with processing nodes that plug into the Continuum distributed workflow execution platform.
+A template repository for building custom [Continuum](https://github.com/projectcontinuum/Continuum) workflow nodes. Create your own feature modules with processing nodes that plug into the Continuum distributed workflow execution platform.
 
 ---
 
@@ -91,7 +91,7 @@ export GITHUB_TOKEN=ghp_your-personal-access-token
 Set `repoName` to your GitHub repository (used for publishing):
 
 ```properties
-sourceRepoName=roushan65/Continuum
+sourceRepoName=projectcontinuum/Continuum
 repoName=YOUR_USERNAME/continuum-feature-myfeature
 ```
 
