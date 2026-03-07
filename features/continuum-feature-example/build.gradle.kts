@@ -5,7 +5,7 @@ plugins {
     `maven-publish`
 }
 
-group = "com.continuum.feature.template"
+group = "com.continuum.feature.example"
 version = "0.0.1"
 
 java {

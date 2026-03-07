@@ -7,7 +7,7 @@ plugins {
     id("com.google.cloud.tools.jib") version "3.4.1"
 }
 
-group = "com.continuum.feature.worker.template"
+group = "com.continuum.feature.template"
 version = "0.0.1"
 
 java {

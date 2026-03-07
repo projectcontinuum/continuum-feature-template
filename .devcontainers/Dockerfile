@@ -1,5 +1,5 @@
 # Use the official image as a parent image
-FROM mcr.microsoft.com/vscode/devcontainers/java:25-bookworm
+FROM mcr.microsoft.com/vscode/devcontainers/java:21-bookworm
 
 # Install Node.js, Yarn, pkg-config, and libsecret-1-dev
 RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - && \
