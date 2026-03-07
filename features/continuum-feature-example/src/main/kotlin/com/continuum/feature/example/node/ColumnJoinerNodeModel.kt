@@ -1,4 +1,4 @@
-package com.continuum.feature.template.node
+package com.continuum.feature.example.node
 
 import com.continuum.core.commons.exception.NodeRuntimeException
 import com.continuum.core.commons.model.ContinuumWorkflowModel

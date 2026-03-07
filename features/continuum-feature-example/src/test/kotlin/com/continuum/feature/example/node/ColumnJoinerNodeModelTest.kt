@@ -1,9 +1,10 @@
-package com.continuum.feature.template.node
+package com.continuum.feature.example.node
 
 import com.continuum.core.commons.exception.NodeRuntimeException
 import com.continuum.core.commons.prototol.progress.NodeProgressCallback
 import com.continuum.core.commons.utils.NodeInputReader
 import com.continuum.core.commons.utils.NodeOutputWriter
+import com.continuum.feature.example.node.ColumnJoinerNodeModel
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
@@ -41,7 +42,7 @@ class ColumnJoinerNodeModelTest {
     @Test
     fun `test node metadata is properly configured`() {
         val metadata = nodeModel.metadata
-        assertEquals("com.continuum.feature.template.node.ColumnJoinerNodeModel", metadata.id)
+        assertEquals("com.continuum.feature.example.node.ColumnJoinerNodeModel", metadata.id)
         assertEquals("Joins two columns from the same table into a new column", metadata.description)
         assertEquals("Column Joiner", metadata.title)
         assertEquals("Concatenate two columns into one", metadata.subTitle)
