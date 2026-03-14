@@ -10,6 +10,7 @@ import com.fasterxml.jackson.databind.ObjectMapper
 import org.slf4j.LoggerFactory
 import org.springframework.http.MediaType.APPLICATION_OCTET_STREAM_VALUE
 import org.springframework.stereotype.Component
+import org.projectcontinuum.core.commons.annotation.ContinuumNode
 
 /**
  * Hello World Node — a minimal example Continuum node.
@@ -19,7 +20,7 @@ import org.springframework.stereotype.Component
  * source column (default: "name"). If the source column is missing the
  * greeting falls back to "Hello, World!".
  */
-@Component
+@ContinuumNode
 class HelloWorldNodeModel : ProcessNodeModel() {
 
     private val logger = LoggerFactory.getLogger(HelloWorldNodeModel::class.java)
