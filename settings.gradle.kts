@@ -7,6 +7,7 @@ pluginManagement {
     }
     plugins {
         id("org.projectcontinuum.feature") version continuumPlatformVersion
+        id("org.projectcontinuum.feature-java") version continuumPlatformVersion
         id("org.projectcontinuum.worker") version continuumPlatformVersion
     }
 }
@@ -14,4 +15,5 @@ pluginManagement {
 rootProject.name = "continuum-feature-example"
 
 include(":features:continuum-feature-hello")
+include(":features:continuum-feature-hello-java")
 include(":worker")

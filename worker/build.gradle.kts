@@ -12,4 +12,5 @@ continuum {
 
 dependencies {
     implementation(project(":features:continuum-feature-hello"))
+    implementation(project(":features:continuum-feature-hello-java"))
 }
