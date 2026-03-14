@@ -1,4 +1,17 @@
-rootProject.name = "continuum-feature-template"
+pluginManagement {
+    val continuumPlatformVersion: String by settings
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+    plugins {
+        id("org.projectcontinuum.feature") version continuumPlatformVersion
+        id("org.projectcontinuum.worker") version continuumPlatformVersion
+    }
+}
 
-include(":features:continuum-feature-example")
+rootProject.name = "continuum-feature-example"
+
+include(":features:continuum-feature-hello")
 include(":worker")
